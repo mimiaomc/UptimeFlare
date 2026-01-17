@@ -27,16 +27,20 @@ export default function Header({ style }: { style?: React.CSSProperties }) {
       <Container size="md" className={classes.inner}>
         <div>
           <a
-            href={location.pathname == '/' ? 'https://github.com/lyc8503/UptimeFlare' : '/'}
+            href={location.pathname == '/' ? 'https://classnote.top' : '/'}
             target={location.pathname == '/' ? '_blank' : undefined}
           >
-            <Image
-              src={pageConfig.logo ?? '/logo.svg'}
-              h={56}
-              w={{ base: 140, sm: 190 }}
-              fit="contain"
-              alt="logo"
-            />
+            <div style={{ fontSize: '1.6rem', fontWeight: 700 }}>
+              家猫自动监测系统
+            </div>
+    {/* <Image
+      src={pageConfig.logo ?? '/logo.svg'}
+      h={56}
+      w={{ base: 140, sm: 190 }}
+      fit="contain"
+      alt="logo"
+    /> */}
+                
           </a>
         </div>
 
