@@ -96,7 +96,7 @@ const workerConfig: WorkerConfig = {
     // if not specified, notification will be sent immediately
 //    gracePeriod: 5,
 //  },
-//}
+}
 
 // You can define multiple maintenances here
 // During maintenance, an alert will be shown at status page
