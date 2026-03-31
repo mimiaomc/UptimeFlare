@@ -78,9 +78,9 @@ const workerConfig: WorkerConfig = {
       id: 'classnote_quiz',
       name: '高中题库',
       method: 'GET',
-      target: 'https://quiz.classnote.top/page/%E9%A6%96%E9%A1%B5',
+      target: 'https://quiz.classnote.top/note/%E9%A6%96%E9%A1%B5',
       tooltip: '题库子站',
-      statusPageLink: 'https://quiz.classnote.top/page/%E9%A6%96%E9%A1%B5',
+      statusPageLink: 'https://quiz.classnote.top/note/%E9%A6%96%E9%A1%B5',
       expectedCodes: [200],
       timeout: 8000,
     }
